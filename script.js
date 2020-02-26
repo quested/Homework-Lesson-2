@@ -1,6 +1,4 @@
-var task1 = 'Задача 4. Конкатенация строк';
-console.log(task1);
-
+// Задача 4. Конкатенация строк
 var first = 255;
 var second = 255;
 var third = 255;
@@ -10,9 +8,7 @@ console.log('background-color: rgba(' + first + ', ' + second + ', ' + third + '
 
 
 
-var task1 = 'Задача 1';
-console.log(task1);
-
+// Задача 1
 var age = '1';
 var MIN_AGE = 18;
 
@@ -26,13 +22,11 @@ if (age === '') {
    console.log('Вы ввели некоректные данные');
 } else {
    console.log('Данный формат данных не поддерживается');
-} 
+};
 
 
 
-var task2 = 'Задача 2';
-console.log(task2);
-
+// Задача 2
 var num1 = 11;
 var num2 = 9;
 var max = num1 >= num2
@@ -41,8 +35,7 @@ var max = num1 >= num2
 
 
 
-var task3 = 'Задача 3 (switch case)';
-console.log(task3);
+// Задача 3 (switch case)
 var yourAge = 12;
 
 switch (true) {
@@ -84,12 +77,11 @@ switch (true) {
 
    default:
       console.log('Введите верные данные');
-}
+};
 
 
 
-var task3_2 = 'Задача 3 (if else)';
-console.log(task3_2);
+// Задача 3 (if else)
 var yourAge2 = 21;
 
 if (yourAge2 >= 0 && yourAge2 < 2) {
@@ -112,4 +104,4 @@ if (yourAge2 >= 0 && yourAge2 < 2) {
    console.log('Введите возраст от 0 до 23 лет');
 } else {
    console.log('Введите верные данные');
-}
+};
